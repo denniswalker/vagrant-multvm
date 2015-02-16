@@ -1,0 +1,47 @@
+[
+  {
+    "name": "master",
+    "ip": "192.168.33.20",
+    "ssh_port": "2201",
+    "distro": "ubuntu",
+    "cpus": "1",
+    "mem": "512",
+    "chef": {
+      "run_list": [
+      ],
+      "json": {
+        "my_name": "hal"
+      }
+    }
+  },
+  {
+    "name": "slave",
+    "ip": "192.168.33.21",
+    "ssh_port": "2202",
+    "distro": "ubuntu",
+    "cpus": "1",
+    "mem": "512",
+    "chef": {
+      "run_list": [
+      ],
+      "json": {
+        "my_name": "hal"
+      }
+    }
+  },
+  {
+    "name": "slave2",
+    "ip": "192.168.33.22",
+    "ssh_port": "2203",
+    "distro": "ubuntu",
+    "cpus": "1",
+    "mem": "512",
+    "chef": {
+      "run_list": [
+      ],
+      "json": {
+        "my_name": "hal"
+      }
+    }
+  }
+]

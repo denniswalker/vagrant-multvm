@@ -1,0 +1,20 @@
+{
+    "name": "vagrant",
+    "short_name": "vagrant",
+    "app_name": "dev",
+    "description": "The local developer environment.",
+    "cookbook_versions": {
+    },
+    "json_class": "Chef::Environment",
+    "chef_type": "environment",
+    "default_attributes": {
+        "base_tokens":{
+            "ENV_ID": "10",
+            "ENV_NAME": "dev",
+            "INSTANCE": "1",
+            "DEFAULT_HOST": "vagrant"
+       }
+   },
+    "override_attributes": {
+    }
+}
